@@ -28,11 +28,11 @@ const amrutamProductSchema =  new mongoose.Schema({
         type: String,
         require: true
     }],
-    keyIngredients: {
+    keyIngredients: [{
         name: String,
         image:String,
         description:String
-    },
+    }],
     howToUse:{
         type: String,
         require: true

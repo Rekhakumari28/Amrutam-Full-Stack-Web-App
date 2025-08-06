@@ -15,13 +15,12 @@ const createProduct= asyncHandler (async (req, res)=>{
 //get product 
 const getAllProduct = asyncHandler(async (req,res)=>{
 try {
-    const allProduct = await Product.find()
+    const allProduct = await AmrutamProduct.find()
     if(allProduct){
  res.status(201).json(allProduct)
     }else{
          res.status(404).json({error: "Products not found"})
-    }
-   
+    }   
 } catch (error) {
     res.status(500).json({error: "Failed to fetch products", error})
 }
@@ -29,11 +28,11 @@ try {
 
 //get product by ID
 const getProductById = asyncHandler(async(req,res)=>{
-    const {productId} = req.body
+    const {productId} = req.params
     try {
         const product = await AmrutamProduct.findById(productId)
         if(product){
-            res.status(201).json(product)
+            res.status(200).json(product)
         }else{
             res.status(404).json({error:"Product not found",})
         }
@@ -45,7 +44,7 @@ const getProductById = asyncHandler(async(req,res)=>{
 //delete product
 
 const deleteProduct = asyncHandler(async(req,res)=>{
-    const {productId} = req.body
+    const {productId} = req.params
     try {
         const product = await AmrutamProduct.findByIdAndDelete(productId)
         if(product){

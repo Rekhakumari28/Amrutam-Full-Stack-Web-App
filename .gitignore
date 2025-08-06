@@ -1,0 +1,11 @@
+# Node modules
+amrutam-dashboard/node_modules
+amrutam-backend/node_modules
+
+# Build files
+amrutam-dashboard/dist
+amrutam-dashboard/build
+amrutam-backend/dist
+
+# Environment variables
+*.env

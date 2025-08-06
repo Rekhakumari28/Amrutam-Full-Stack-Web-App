@@ -1,0 +1,203 @@
+.navbar-nav .nav-link {
+  margin: 0 10px;
+  color: #444;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #004225;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #004225;
+}
+
+.bg-cream {
+  background-color: #FFF7E1 !important;
+}
+.nav-link.active {
+  text-decoration: underline;
+  
+}
+.bg-image {
+  background-image: url('../bannerAmrutam.png'); 
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.product-image {
+  max-width: 400px;
+  height: 300px;
+  background-color: bisque;
+}
+.bg-darkcream{
+   background-color: bisque;
+}
+
+.check{
+  height:24px;
+  width: 24px;
+}
+
+.prakriti-wrapper {
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.prakriti-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.prakriti-item {
+  text-align: center;
+}
+
+.semi-circle {
+   width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 10px solid transparent;
+border-top-color: orange;
+  transform: rotate(360deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.prakriti-icon {
+  width: 30px;
+  height: 30px;
+  transform: rotate(-360deg);
+}
+
+.prakriti-label {
+  font-size: 14px;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.styleContainer{
+  background-color: #ffda95;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px ;
+}
+
+.stylesemoji{
+  font-size: 15px;
+
+}
+
+.x-small{
+  font-size:12px;
+}
+
+
+
+.therapeutic-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.therapeutic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+}
+
+
+.therapeutic-icon-outer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.therapeutic-icon-inner {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #edf1ec;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.therapeutic-icon {
+  font-size: 24px;
+  color: green;
+}
+
+.therapeutic-label {
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.social-circle {
+  background-color: #2e5d3b;   
+  color: white;              
+  width: 40px;                
+  height: 40px;             
+  border-radius: 50%;         
+  display: flex;               
+  align-items: center;          
+  justify-content: center;     
+  font-size: 20px;             
+  transition: background 0.3s;  
+} 
+
+.social-circle:hover {
+  background-color: #3a7a4e;   
+}
+
+
+.outer-ring {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: #fbfcf9;
+  border: 2px solid #d1e2d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e5f0ea;
+  border: 2px solid #c3d8c7;
+  font-size: 20px;
+  color: #4c8b5c;
+}
+
